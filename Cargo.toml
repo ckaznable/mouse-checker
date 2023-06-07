@@ -1,0 +1,9 @@
+[package]
+name = "mouse-checker"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.3.2", features = ["derive"] }
+crossterm = "0.26.1"
+ratatui = "0.21.0"
